@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins, sans-serif;
+    background-color:  #674bb1;
+    max-width: 100%;justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+.fundo-mobile img{
+    display: none;
+}
+.logo{
+    display: flex;
+    position: relative;
+    top: 40px;
+}
+section{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 106px;
+  left: 210px;
+  gap: 40px;
+  z-index: 1;
+}
+ #desktop{
+    display: flex;
+    position: relative;
+    right: 27px;
+    width: 550px;
+    z-index: 1;
+}
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  bottom: 30px;
+  gap: 24px;
+  width: 500px;
+  z-index: 1;
+}
+ h1{
+    width: 360px;
+    color: white;
+    margin: 0;
+    font-weight: 400;
+}
+.Sobre{
+    color: white;
+    width: 490px;
+}
+ .btn1{
+    display: inline-block;
+    background-color: white;
+    border-color: white;
+    box-shadow:1px 1px 10px black;
+    color: #674bb1;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+.btn1:hover{
+    display: inline-block;
+    background-color:#ab4fc4;
+    border-color:#ab4fc4;
+    box-shadow:1px 1px 10px black;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 50px;
+}
+.logo {
+display: flex;
+position: relative;
+bottom: 480px;
+left: 80px;
+height: 40px;
+}
+.fundo img{
+    height:100%;
+    bottom: 0.1px;
+    left:50px;
+    position:absolute;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    bottom: 12px;
+    right: 25%;
+}
+.attribution a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.attribution a:hover{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #f152c9;
+}
+@media  (max-width:768px) {
+    body{
+        overflow: hidden;
+        max-width: 100%;
+        width: auto;
+    }
+    .fundo img{
+        display: none;
+    }
+    .fundo-mobile img{
+        display: block;
+        width: 430px;
+        position: absolute;
+        bottom: 480px;
+        max-width: auto;
+}
+.logo{
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 30px;
+     max-width: auto;
+}
+#desktop{
+    display: flex;
+    position: relative;
+    width: 340px;
+    right: 40px;
+    bottom: 27px;
+     max-width: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+}
+.container{
+    display: flex;
+    position: relative;
+    top: 20px;
+     max-width: auto;
+}
+h1{
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 25px;
+}
+.Sobre{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.4em;
+    width: 404px;
+    letter-spacing: 2px;
+}
+.btn1{
+    font-size: 20px;
+    padding: 13px 100px;
+    display: flex;
+    position: relative;
+    left: 60px;
+    font-weight: bolder;
+    border: white;
+}
+.btn1:hover{
+    font-size: 20px;
+    padding: 13px 100px;
+    display: flex;
+    position: relative;
+    left: 85px;
+    font-weight: bolder;
+    border: white;
+}
+.attribution{
+    display: none;
+  
+}
+}
+
+@media (max-width:375px) {
+    body{
+        overflow: hidden;
+        max-width: 100%;
+        width: auto;
+    }
+    .fundo img{
+        display: none;
+    }
+    .fundo-mobile img{
+        display: block;
+        width: 380px;
+        position: absolute;
+        bottom: 387px;
+        max-width: auto;
+}
+.logo{
+    display: flex;
+    position: relative;
+    top: 35px;
+    left: 40px;
+    height: 30px;
+     max-width: auto;
+}
+#desktop{
+    display: flex;
+    position: relative;
+    width: 310px;
+    right: 40px;
+    bottom: 17px;
+     max-width: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.container{
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 240px;
+    width: 10px;
+     max-width: auto;
+}
+h1{
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 15px;
+}
+.Sobre{
+    display: flex;
+    position: relative;
+    text-align: center;
+    width: 320px;
+    left: 35px;
+    letter-spacing: -0.2px; /*Adiciona espaçamento entre as letras para melhorar a legibilidade */
+}
+.btn1{
+    padding: 10px 70px;
+    display: flex;
+    position: relative;
+    left: 85px;
+    font-weight: bolder;
+    border: white;
+}
+   .btn1:hover{
+    left: 85px;
+    padding: 10px 70px;
+    display: flex;
+    position: relative;
+    font-weight: bolder;
+    border: white;
+    background-color:#ab4fc4;
+    color: white; 
+}
+}
