@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Desafios Frontend Mentor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #333;
+            margin-top: 0;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            transition: transform 0.2s;
+        }
+        li:hover {
+            transform: translateX(10px);
+            background: #f1f3f5;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #764ba2;
+        }
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 14px;
+            margin-left: 15px;
+        }
+        .concluido {
+            background: #28a745;
+            color: white;
+        }
+        .andamento {
+            background: #ffc107;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Meus Projetos Frontend Mentor</h1>
+        <p style="color: #666;">Clique nos links abaixo para ver meus desafios:</p>
+        
+        <ul>
+            <li>
+                <div style="display: flex; align-items: center;">
+                    <a href="./Desafio%201/">📱 Desafio 1</a>
+                    <span class="status concluido">✅ Concluído</span>
+                </div>
+                <p style="color: #666; margin: 10px 0 0 0;">
+                    Primeiro desafio - Layout responsivo com Flexbox
+                </p>
+                <small style="color: #999;">
+                    🔗 Link direto: <a href="./Desafio%201/" style="font-size: 14px;">evenagazashi.github.io/Desafios/Desafio 1/</a>
+                </small>
+            </li>
+            
+            <li>
+                <div style="display: flex; align-items: center;">
+                    <a href="./Desafio%202/">💻 Desafio 2</a>
+                    <span class="status andamento">⚙️ Em andamento</span>
+                </div>
+                <p style="color: #666; margin: 10px 0 0 0;">
+                    Segundo desafio - CSS Grid e animações
+                </p>
+            </li>
+        </ul>
+        
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #666;">
+            <p style="text-align: center;">
+                🚀 Desenvolvido por EveNagazashi | 
+                <a href="https://github.com/EveNagazashi/Desafios" style="color: #667eea;">Repositório no GitHub</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
