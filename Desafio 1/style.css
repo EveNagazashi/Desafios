@@ -194,7 +194,7 @@ h1{
 }
 }
 
-@media (max-width:375px) {
+@media (max-width:360px) {
     body{
         overflow: hidden;
         max-width: 100%;
@@ -207,7 +207,7 @@ h1{
         display: block;
         width: 380px;
         position: absolute;
-        bottom: 387px;
+        bottom: 420px;
         max-width: auto;
 }
 .logo{
@@ -223,7 +223,7 @@ h1{
     position: relative;
     width: 310px;
     right: 40px;
-    bottom: 17px;
+    bottom: 20px;
      max-width: auto;
 }
 section{
