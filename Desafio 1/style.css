@@ -194,7 +194,7 @@ h1{
 }
 }
 
-@media (max-width:360px) {
+@media (max-width:600px) {
     body{
         overflow: hidden;
         max-width: 100%;
@@ -205,9 +205,10 @@ h1{
     }
     .fundo-mobile img{
         display: block;
-        width: 380px;
+        width: 470px;
         position: absolute;
-        bottom: 420px;
+        left: 30px;
+        bottom: 130px;
         max-width: auto;
 }
 .logo{
