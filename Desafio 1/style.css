@@ -65,6 +65,7 @@ section{
     color: #674bb1;
     padding: 10px 40px;
     border-radius: 50px;
+    border: none;
 }
 .btn1:hover{
     display: inline-block;
@@ -72,8 +73,9 @@ section{
     border-color:#ab4fc4;
     box-shadow:1px 1px 10px black;
     color: white;
-    padding: 10px 35px;
+    padding: 10px 40px;
     border-radius: 50px;
+    border: none;
 }
 .logo {
 display: flex;
@@ -114,162 +116,69 @@ footer{
     border-radius: 5px;
     background-color: #f152c9;
 }
-@media  (max-width:768px) {
+
+@media (max-width:375px){
     body{
         overflow: hidden;
         max-width: 100%;
         width: auto;
+        padding: 24px;
     }
     .fundo img{
         display: none;
     }
     .fundo-mobile img{
         display: block;
-        width: 430px;
+        width: 310px;
+        justify-content: center;
+        align-items: center;
         position: absolute;
-        bottom: 480px;
-        max-width: auto;
+        left: 1px;
+        bottom: 380px;
 }
 .logo{
     display: flex;
     position: relative;
-    top: 15px;
-    left: 30px;
-     max-width: auto;
+    height:27px;
+    top: -14px;
+    left: 1px;
 }
 #desktop{
     display: flex;
     position: relative;
-    width: 340px;
-    right: 40px;
-    bottom: 27px;
-     max-width: auto;
+    width: 247px;
+    bottom: 75px;
+    left: 1px;
 }
 section{
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 50px;
+    left: -30px;
 }
 .container{
-    display: flex;
-    position: relative;
-    top: 20px;
-     max-width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    bottom: 70px;
 }
 h1{
-    text-align: center;
-    display: flex;
-    position: relative;
-    left: 25px;
+     width: 300px;
+    font-size: 2rem;
 }
 .Sobre{
-    font-size: 16px;
     text-align: center;
-    line-height: 1.4em;
-    width: 404px;
-    letter-spacing: 2px;
+    width: 200px;
+   font-size: 0.9rem;
 }
 .btn1{
-    font-size: 20px;
-    padding: 13px 100px;
-    display: flex;
-    position: relative;
-    left: 60px;
-    font-weight: bolder;
-    border: white;
+    padding: 10px 60px;
 }
 .btn1:hover{
-    font-size: 20px;
-    padding: 13px 100px;
-    display: flex;
-    position: relative;
-    left: 85px;
-    font-weight: bolder;
-    border: white;
+   
 }
 .attribution{
     display: none;
   
-}
-}
-
-@media (max-width:600px) {
-    body{
-        overflow: hidden;
-        max-width: 100%;
-        width: auto;
-    }
-    .fundo img{
-        display: none;
-    }
-    .fundo-mobile img{
-        display: block;
-        width: 470px;
-        position: absolute;
-        left: 30px;
-        bottom: 130px;
-        max-width: auto;
-}
-.logo{
-    display: flex;
-    position: relative;
-    top: 35px;
-    left: 40px;
-    height: 30px;
-     max-width: auto;
-}
-#desktop{
-    display: flex;
-    position: relative;
-    width: 310px;
-    right: 40px;
-    bottom: 20px;
-     max-width: auto;
-}
-section{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-.container{
-    display: flex;
-    position: relative;
-    top: 20px;
-    right: 240px;
-    width: 10px;
-     max-width: auto;
-}
-h1{
-    text-align: center;
-    display: flex;
-    position: relative;
-    left: 15px;
-}
-.Sobre{
-    display: flex;
-    position: relative;
-    text-align: center;
-    width: 320px;
-    left: 35px;
-    letter-spacing: -0.2px; /*Adiciona espaçamento entre as letras para melhorar a legibilidade */
-}
-.btn1{
-    padding: 10px 70px;
-    display: flex;
-    position: relative;
-    left: 85px;
-    font-weight: bolder;
-    border: white;
-}
-   .btn1:hover{
-    left: 85px;
-    padding: 10px 70px;
-    display: flex;
-    position: relative;
-    font-weight: bolder;
-    border: white;
-    background-color:#ab4fc4;
-    color: white; 
-}
+} 
 }
