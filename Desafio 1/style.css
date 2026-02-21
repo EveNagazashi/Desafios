@@ -93,14 +93,17 @@ height: 40px;
     justify-self: center;
     align-items: center;
 }
-footer{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    display: flex;
-    position:relative;
-    justify-content: center;
-    bottom: 12px;
-    right: 25%;
+  .social-media{
+    display: inline-block;
+    border:1px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 120px;
+    left: 116%;
+}
+.fa-brands fa-facebook-f{
+   display: inline-block;
+   font-size: 200em;
 }
 .attribution a{
     display: inline-block;
@@ -129,11 +132,10 @@ footer{
     }
     .fundo-mobile img{
         display: block;
-        width: 310px;
+        width: 339px;
         justify-content: center;
         align-items: center;
         position: absolute;
-        left: 1px;
         bottom: 380px;
 }
 .logo{
@@ -148,13 +150,15 @@ footer{
     position: relative;
     width: 247px;
     bottom: 75px;
-    left: 1px;
 }
 section{
     display: flex;
     flex-direction: column;
     position: relative;
-    left: -30px;
+    left: 30px;
+}
+.social-media{
+    bottom: 20px;
 }
 .container{
     text-align: center;
