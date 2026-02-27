@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
 body{
     height: 100vh;
     background-color:  hsl(257, 40%, 49%);
@@ -44,33 +47,42 @@ main img{
 .conteudo{
     display: flex;
     flex-direction: column;
+    position: relative;
     max-width: 500px;
     background-color: turquoise;
-    height: 80%;
-    gap: 25px;
+    top: -30px;
+    gap: 10px;
+    left: 30px;
 }
 
-a{
-    display: inline-block;
-    text-decoration: none;
-    height: 20px;
+footer a{
+    display: grid; /* Transforma o link em um grid para facilitar a centralização do conteúdo */
+    place-content: center; /* Centraliza o conteúdo dentro do link*/
     border: 2px solid white;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    place-content: center; 
+    width: 48px;
+    height: 48px;
 }
 
-.fa-brands{
- display: flex;
- height: 20px;
- color: white;
+footer a:hover{
+    border: 2px solid #a84fc6;
+}
 
+footer i{
+ color: white;
+ font-size: 1.3rem;
+}
+
+footer i:hover{
+    color: #a84fc6;
 }
 
 footer{
+    gap: 16px; /* Espaçamento entre os ícones */
     display: flex;
     position: relative;
+    top: 40px;
+    right: 60px;
     align-items: end;
 }
 
@@ -95,3 +107,9 @@ h1, p{
   width: 400px;
   font-family: poppins, sans-serif;
 }
+
+p{
+    width: 500px;
+}
+
+
