@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 body{
-    height: 100vh;
+    height: 100vh; /* Garante que o corpo ocupe toda a altura da janela de visualização */
     background-color:  hsl(257, 40%, 49%);
     background-image: url('./pastas do desafio/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg');
     background-repeat: no-repeat;
@@ -36,12 +36,11 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    gap: 48px;
 }
 
 main img{
     width: 560px;
-    right: 90px;
 }
 
 .conteudo{
@@ -50,8 +49,7 @@ main img{
     position: relative;
     max-width: 500px;
     top: -30px;
-    gap: 10px;
-    left: 30px;
+    gap: 20px;
 }
 
 footer a{
@@ -109,4 +107,65 @@ p{
     width: 500px;
 }
 
+@media (max-width: 375px){
+    body{
+        background-image: url('./pastas do desafio/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 
+   header img{
+       top: 30px;
+       left: 40px;
+    }
+  
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+}
+main img{
+    width: 300px;
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    left: -24px;
+}
+.conteudo{
+    gap: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+h1{
+    display: flex;
+    position: relative;
+    width: 300px;
+    font-size: 1.5em;
+    text-align: center;
+    left: -55px;
+}
+
+p{
+     display: flex;
+    position: relative;
+    width: 260px;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+footer{
+     
+}
+
+footer i{
+    font-size: 0.9rem;
+}
+
+footer a{
+   width: 40px;
+    height: 40px;
+}
+}
