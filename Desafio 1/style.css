@@ -109,9 +109,11 @@ p{
 
 @media (max-width: 375px){
     body{
+        overflow-x: hidden;
         background-image: url('./pastas do desafio/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg');
         background-repeat: no-repeat;
         background-size: contain;
+        min-height: 100vh;/* Garante que o corpo ocupe toda a altura da janela de visualização */
     }
 
    header img{
@@ -132,6 +134,7 @@ main img{
     bottom: 20px;
     left: -24px;
 }
+
 .conteudo{
     gap: 10px;
     width: 200px;
@@ -148,7 +151,7 @@ h1{
 }
 
 p{
-     display: flex;
+    display: flex;
     position: relative;
     width: 260px;
     font-size: 0.8em;
@@ -163,6 +166,7 @@ p{
         right: 20px;
 }
 footer{
+   
      right: 190px;
 }
 
