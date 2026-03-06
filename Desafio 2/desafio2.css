@@ -114,3 +114,24 @@ body{
     }
 }
 
+#container{
+    display: grid;
+    grid-template-areas: 'main main'
+    'section article'
+    'section article';
+}
+
+#container main{
+    background-color:rgb(248, 246, 246) ;
+    grid-area: main;
+}
+
+#container section{
+    background-color: hsl(179, 62%, 43%);
+   grid-area:section;
+}
+
+#container article{
+    background-color: hsl(179, 67%, 60%);
+    grid-area: article;
+}
