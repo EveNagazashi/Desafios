@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins, Opens-sans;
+    background-color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    Font-size: 15px;
+    max-width:1440px;
+    height: 100vh;
+}
+
+@media (max-width:375px){
+    body{
+        margin: 20px;
+        background-color:  hsl(0, 0%, 100%);
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+
+        h1{
+            color:  hsl(212, 6%, 44%);
+            text-align: center;
+            font-size: 1.4rem;
+          width: 300px;
+          font-weight: 400;
+          margin: 20px;
+        }
+
+        span{
+            color: hsl(234, 12%, 34%);
+            font-weight: 500;
+        }
+        p{
+            text-align: center;
+            width: 300px;
+           color:  hsl(234, 12%, 34%);
+        }
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .supervisor{
+        background-color:  hsl(0, 0%, 100%);
+        border: 10px;
+        border-top: 4px solid hsl(180, 62%, 55%);
+        box-shadow: gray 4px 4px 4px;
+        width: 300px;
+        height: 200px;
+
+        & h2{
+         color:hsl(234, 12%, 34%) ; 
+         font-size: 1.1rem;
+          margin:15px 20px;
+        }
+
+        p{
+          color: hsl(212, 6%, 44%);
+          font-size: 1rem;
+          width: 350px;
+           margin: 0px 15px;
+        }
+    }
+
+
+    .team-builder{
+        background-color:  hsl(0, 0%, 100%);
+        border: 10px;
+        border-top: 4px solid hsl(0, 78%, 62%);
+        box-shadow:gray 4px 4px 4px;
+        width: 300px;
+        height: 200px;
+
+        
+        & h2{
+         color:hsl(234, 12%, 34%) ; 
+         font-size: 1.1rem;
+          margin:15px 20px;
+        }
+
+        p{
+          color: hsl(212, 6%, 44%);
+          font-weight: 300;
+          font-size: 0.9rem;
+          margin: 0px 20px;
+          width: 250px;
+        }
+    }
+
+    .karma{
+        background-color:  hsl(0, 0%, 100%);
+        border: 10px;
+        border-top: 4px solid  hsl(34, 97%, 64%);
+        box-shadow:gray 4px 4px 4px;
+        width: 300px;
+        height: 200px;
+
+        
+        & h2{
+         color:hsl(234, 12%, 34%) ; 
+         font-size: 1.1rem;
+          margin:15px 20px;
+        }
+
+        p{
+          color: hsl(212, 6%, 44%);
+          font-size: 1rem;
+          margin: 0px 20px;
+        }
+    }
+
+    .calculator{
+        background-color:  hsl(0, 0%, 100%);
+        border: 10px;
+        border-top: 4px solid hsl(212, 86%, 64%);
+        box-shadow:gray 4px 4px 4px;
+        width: 300px;
+        height: 200px;
+
+        
+        & h2{
+         color:hsl(234, 12%, 34%) ; 
+         font-size: 1.1rem;
+         margin: 20px;
+          margin:15px 20px;
+        }
+
+        p{
+          color: hsl(212, 6%, 44%);
+          font-size: 1rem;
+           width: 300px;
+           margin: 0px 20px;
+        }
+    }
+
+     a img{
+     display: inline-block;
+     position: relative;
+     left: 70%;
+     top: 10%;
+     height: 50px;
+    }
+
+}
