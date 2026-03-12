@@ -23,7 +23,7 @@ h1{
     position: relative;
     justify-content: center;
     align-items: center;
-    padding:50px 100px;
+    padding: 50px 100px;
     background-color: transparent;
     gap: 20px;
 
@@ -33,7 +33,7 @@ h1{
     border-radius: 10px;
     box-shadow: gray 0px 0px 10px;
     border-left: 20px solid royalblue;
-    font: 'Poppins', sans-serif;
+    font: 'Poppins', 'sans-serif';
     font-size: 20px;}
 
 .link{
@@ -63,7 +63,7 @@ h1{
     border-radius: 10px;
     box-shadow: gray 0px 0px 10px;
     border-left: 20px solid oklch(43.374% 0.16642 12.861);
-    font: 'Poppins', sans-serif;
+    font: 'Poppins', 'sans-serif';
     font-size: 20px;}
 
 .link{
@@ -109,8 +109,37 @@ h1{
 }
 }
 
+.Social-proof-section-master{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding:50px 100px;
+    background-color: transparent;
+
+    p{ 
+    margin: 5px 0px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: gray 0px 0px 10px;
+    border-left: 20px solid oklch(72.222% 0.12434 185.451);
+    font: 'Poppins', 'sans-serif';
+    font-size: 20px;}
+
+.link{
+    color: white;
+    margin: 5px 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 20px 5px;
+    background-color: oklch(72.222% 0.12434 185.451);
+    border-radius: 15px;
+}
+}
 @media (max-width:428px){
-    .Huddle-landing-page-with-a-single-introductory-section,.Single-price-grid-component,.Four-card-feature-section{
+    .Huddle-landing-page-with-a-single-introductory-section,.Single-price-grid-component,.Four-card-feature-section,.Social-proof-section-master{
         padding: 10px;
         gap: 10px;
 
